@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
+    <script type="module" crossorigin src="assets/index.js"></script>
+    <link rel="stylesheet" href="assets/index.css">
+</head>
+
+<body>
+    <div class="wheelYWP">
+        <div class="modalopen_bl"><a id="show" class="showWheel"><img src="#" id="podark_img" /></a>
+            <div class="linear_gift"></div>
+            <div id="modal_full_show" class="show_modal"></div>
+        </div>
+        <div id="while_content" style="display:flex">
+            <div class="close_mobile_overflow" style="display:none!important"><a class="clos_modal1"><img src="#"
+                        id="close_mobile" /></a></div><a class="clos_modal hide" id="fullscreen"
+                style="display:none!important"></a> <a class="clos_modal" id="halfscreen"
+                style="display:none!important"></a>
+            <div class="deal-wheel">
+                <div class="slide_left">
+                    <div class="spin_container">
+                        <div class="center_circle"></div>
+                        <ul class="spinner show_modal0" id="wheelCircle"></ul>
+                    </div>
+                    <div class="ticker1"><img src="assets/ticker-light.c3fc99d4.svg" id="ticker" /></div>
+                </div>
+                <div class="slide_right">
+                    <div class="wining" id="winText">..</div>
+                    <h2 class="slide_right_tit" id="circleTitle">..</h2>
+                    <p class="slide_right_text" id="circleText">..</p>
+                    <div class="promo_block" id="prom_styl"><a class="copy_promo"><img src="#" id="images.copy" /></a>
+                        <div id="promo_cont"><input id="promo" type="" name="" readonly="readonly" /></div>
+                    </div>
+                    <form method="post" id="form_while" action="#" style="display:none">
+                        <div class="numb_content"><img src="#" id="inpimg" /> <span id="cod">+358</span> <input
+                                type="tel" name="PHONE" class="tel_while" placeholder="" id="phone_4" /> <input
+                                type="hidden" name="prom" id="promm" /> <input type="hidden" name="prizz" id="prizz" />
+                        </div>
+                        <ul id="error_text" style="display:none">
+                            <li id="errorText">..</li>
+                        </ul>
+                        <div class="checkbox_cont" style="display:none"><input type="checkbox" name="chekchek"
+                                id="chekboxYWP" style="display:none" /> <label for="chekboxYWP" class="labelcheck">
+                                <div class="checkbox-box-ywp"></div><span id="privacyText">..</span><a id="privacyHref"
+                                    href="#" target="_blank">..</a>
+                            </label></div><button type="submit" style="display:none" id="form_submit">..</button>
+                    </form><button class="send" id="btn_send" disabled="disabled">..</button> <button class="hide"
+                        id="close_window">Закрыть</button>
+                    <div style="text-align:center;padding-top:21px"><span id="copy_mesage">Успешно скопировано.</span>
+                        <a href="wheelwidget.html" target="_blank" rel="nofollow noreferrer noopener"></a>
+                    </div><button class="btn-spin" style="display:none">Испытай удачу</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hystmodal" id="winModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <div class="container col g40 w100p p10">
+                    <div class="container col g15"><span>Ваш приз</span>
+                        <h1 id="modalPrize">prize</h1>
+                    </div>
+                    <p id="modalPrizeText">Круто! Поздравляем вас с победой, наш менеджер сейчас расскажет как вы можете
+                        забрать свой приз!</p>
+                </div><button id="receiveButton" class="receive w100p">Забрать приз</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
